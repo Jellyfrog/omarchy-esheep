@@ -1,0 +1,1170 @@
+{
+ "animations": {
+  "1": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 1,
+   "name": "begin",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     0,
+     0
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 50
+     }
+    ],
+    "repeat": "10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "10": {
+   "border": [
+    {
+     "id": 18,
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-10",
+    "y": "random/20-5"
+   },
+   "id": 10,
+   "name": "run_left",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     12,
+     13
+    ],
+    "next": [
+     {
+      "id": 10,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 14,
+      "probability": 10
+     },
+     {
+      "id": 16,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-10",
+    "y": "0"
+   }
+  },
+  "11": {
+   "border": [
+    {
+     "id": 19,
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "10",
+    "y": "random/20-5"
+   },
+   "id": 11,
+   "name": "run_right",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     14,
+     15
+    ],
+    "next": [
+     {
+      "id": 11,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 15,
+      "probability": 10
+     },
+     {
+      "id": 17,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "10",
+    "y": "0"
+   }
+  },
+  "12": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 12,
+   "name": "drag",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     26,
+     27
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "13": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "3"
+   },
+   "id": 13,
+   "name": "fall",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     24,
+     25
+    ],
+    "next": [
+     {
+      "id": 13,
+      "probability": 10
+     },
+     {
+      "id": 25,
+      "probability": 20
+     }
+    ],
+    "repeat": "10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "3"
+   }
+  },
+  "14": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    },
+    {
+     "id": 18,
+     "only": "vertical",
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-8",
+    "y": "-6"
+   },
+   "id": 14,
+   "name": "run_ul",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     16,
+     17
+    ],
+    "next": [
+     {
+      "id": 14,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 8,
+      "probability": 10
+     },
+     {
+      "id": 10,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-8",
+    "y": "-6"
+   }
+  },
+  "15": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    },
+    {
+     "id": 19,
+     "only": "vertical",
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "8",
+    "y": "-6"
+   },
+   "id": 15,
+   "name": "run_ur",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     18,
+     19
+    ],
+    "next": [
+     {
+      "id": 15,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 8,
+      "probability": 10
+     },
+     {
+      "id": 11,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "8",
+    "y": "-6"
+   }
+  },
+  "16": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    },
+    {
+     "id": 18,
+     "only": "vertical",
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-8",
+    "y": "6"
+   },
+   "id": 16,
+   "name": "run_dl",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     20,
+     21
+    ],
+    "next": [
+     {
+      "id": 16,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 10,
+      "probability": 10
+     },
+     {
+      "id": 9,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-8",
+    "y": "6"
+   }
+  },
+  "17": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    },
+    {
+     "id": 19,
+     "only": "vertical",
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "8",
+    "y": "6"
+   },
+   "id": 17,
+   "name": "run_dr",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     22,
+     23
+    ],
+    "next": [
+     {
+      "id": 17,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 9,
+      "probability": 10
+     },
+     {
+      "id": 11,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "8",
+    "y": "6"
+   }
+  },
+  "18": {
+   "end": {
+    "interval": "120",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 18,
+   "name": "screen_left",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     28,
+     29
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "120",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "19": {
+   "end": {
+    "interval": "120",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 19,
+   "name": "screen_right",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     30,
+     31
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "120",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "2": {
+   "end": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 2,
+   "name": "idle",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     0,
+     0
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     },
+     {
+      "id": 3,
+      "probability": 10
+     },
+     {
+      "id": 5,
+      "probability": 10
+     },
+     {
+      "id": 8,
+      "probability": 10
+     },
+     {
+      "id": 9,
+      "probability": 10
+     },
+     {
+      "id": 10,
+      "probability": 10
+     },
+     {
+      "id": 11,
+      "probability": 10
+     },
+     {
+      "id": 14,
+      "probability": 10
+     },
+     {
+      "id": 15,
+      "probability": 10
+     },
+     {
+      "id": 16,
+      "probability": 10
+     },
+     {
+      "id": 17,
+      "probability": 10
+     },
+     {
+      "id": 20,
+      "probability": 10
+     }
+    ],
+    "repeat": "random/20+2",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "20": {
+   "end": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 20,
+   "name": "run_catcha",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     7,
+     0
+    ],
+    "next": [
+     {
+      "id": 24,
+      "probability": 10
+     }
+    ],
+    "repeat": "3",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "21": {
+   "end": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-7",
+    "y": "0"
+   },
+   "id": 21,
+   "name": "runaway",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     35,
+     34,
+     33
+    ],
+    "next": [
+     {
+      "id": 21,
+      "probability": 10
+     }
+    ],
+    "repeat": "20",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-2",
+    "y": "0"
+   }
+  },
+  "22": {
+   "end": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "0.3",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 22,
+   "name": "kill",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     4,
+     4,
+     5,
+     6
+    ],
+    "next": [
+     {
+      "id": 27,
+      "probability": 10
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "23": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 23,
+   "name": "sync",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     7,
+     0
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     }
+    ],
+    "repeat": "5",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "24": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-8",
+    "y": "0"
+   },
+   "id": 24,
+   "name": "run_catchb",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     12,
+     13
+    ],
+    "next": [
+     {
+      "id": 24,
+      "probability": 10
+     }
+    ],
+    "repeat": "20",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "-8",
+    "y": "0"
+   }
+  },
+  "25": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "20",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "8"
+   },
+   "id": 25,
+   "name": "fall_fast",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     24,
+     25
+    ],
+    "next": [
+     {
+      "id": 26,
+      "probability": 10
+     }
+    ],
+    "repeat": "30",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "3"
+   }
+  },
+  "26": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "20",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "8"
+   },
+   "id": 26,
+   "name": "fall_fastest",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     24,
+     25
+    ],
+    "next": [
+     {
+      "id": 26,
+      "probability": 10
+     }
+    ],
+    "repeat": "30",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "20",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "8"
+   }
+  },
+  "27": {
+   "end": {
+    "interval": "1000",
+    "offsetY": "0",
+    "opacity": "0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 27,
+   "name": "killb",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     5,
+     6
+    ],
+    "next": [],
+    "repeat": "5",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "0.3",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "3": {
+   "end": {
+    "interval": "250",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 3,
+   "name": "scratcha",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     0,
+     1
+    ],
+    "next": [
+     {
+      "id": 4,
+      "probability": 10
+     }
+    ],
+    "repeat": "3",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "250",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "4": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 4,
+   "name": "scratchb",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     2,
+     3
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "5": {
+   "end": {
+    "interval": "2000",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 5,
+   "name": "sleepa",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     0,
+     4
+    ],
+    "next": [
+     {
+      "id": 6,
+      "probability": 10
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "1000",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "6": {
+   "end": {
+    "interval": "500",
+    "offsetY": "3",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 6,
+   "name": "sleepb",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     5,
+     6
+    ],
+    "next": [
+     {
+      "id": 7,
+      "probability": 10
+     }
+    ],
+    "repeat": "20+random/5",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "500",
+    "offsetY": "3",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "7": {
+   "end": {
+    "interval": "1000",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 7,
+   "name": "sleepc",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     7
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 10
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "1000",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "8": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    },
+    {
+     "id": 13,
+     "probability": 90
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "random/20-5",
+    "y": "-6"
+   },
+   "id": 8,
+   "name": "run_up",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     8,
+     9
+    ],
+    "next": [
+     {
+      "id": 8,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 14,
+      "probability": 10
+     },
+     {
+      "id": 15,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "-6"
+   }
+  },
+  "9": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 10
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "random/20-5",
+    "y": "6"
+   },
+   "id": 9,
+   "name": "run_down",
+   "sequence": {
+    "action": "none",
+    "frames": [
+     10,
+     11
+    ],
+    "next": [
+     {
+      "id": 9,
+      "probability": 50
+     },
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 16,
+      "probability": 10
+     },
+     {
+      "id": 17,
+      "probability": 10
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1",
+    "x": "0",
+    "y": "6"
+   }
+  }
+ },
+ "author": "Adriano",
+ "childs": [
+  {
+   "animationId": 20,
+   "next": 21,
+   "x": "imageX-imageW*2",
+   "y": "imageY"
+  }
+ ],
+ "icon": "icon.png",
+ "id": "neko",
+ "image": {
+  "file": "sprites.png",
+  "frameHeight": 32,
+  "frameWidth": 32,
+  "height": 288,
+  "tilesX": 4,
+  "tilesY": 9,
+  "width": 128
+ },
+ "info": "Another well known screen mate. This one was able to move and follow your mouse cursor. [br]Maybe in future this option will be available also on this application.[br][br][br]Spritesheet was taken from the online version of Neko: [link:https://webneko.net/]",
+ "name": "Neko",
+ "spawns": [
+  {
+   "id": 1,
+   "next": [
+    {
+     "id": 1,
+     "probability": 0
+    }
+   ],
+   "probability": 20,
+   "x": "screenW/2-imageW/2",
+   "y": "screenH/2-imageH/2"
+  }
+ ],
+ "special": {
+  "drag": 12,
+  "fall": 13,
+  "kill": 22,
+  "sync": 23
+ },
+ "title": "Neko mate",
+ "version": "0.3"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "jellyfrog.esheep",
+  "name": "eSheep",
+  "version": "1.0.0",
+  "author": "Jellyfrog",
+  "license": "GPL-3.0-or-later",
+  "description": "The '90s desktop pet, for Omarchy. Sheep walk along the bottom of the screen, climb onto the top edge of your Hyprland windows, and can be picked up and dropped anywhere.",
+  "kinds": [
+    "panel",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "panel": "Pet.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "eSheep",
+    "description": "Desktop pets that walk your screen and climb your windows.",
+    "category": "Fun",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "pet": "esheep",
+      "count": 1,
+      "scale": 1,
+      "speed": 1,
+      "walkOnWindows": true,
+      "hideOnFullscreen": true,
+      "allowChildren": true,
+      "avoidBar": true,
+      "roamMonitors": true,
+      "lockToWorkspace": true
+    },
+    "schema": [
+      { "key": "pet", "type": "enum", "label": "Pet", "options": ["esheep", "sheep-blue", "neko", "pingus", "fox"], "defaultValue": "esheep" },
+      { "key": "count", "type": "integer", "label": "How many", "min": 0, "max": 12, "step": 1, "defaultValue": 1 },
+      { "key": "scale", "type": "number", "label": "Size", "min": 0.5, "max": 6, "step": 0.5, "defaultValue": 1, "description": "Sprite magnification. The sheep is drawn at 40x40 pixels." },
+      { "key": "speed", "type": "number", "label": "Speed", "min": 0.25, "max": 4, "step": 0.25, "defaultValue": 1 },
+      { "key": "walkOnWindows", "type": "boolean", "label": "Climb on windows", "defaultValue": true, "description": "Land on the top edge of a window and walk along it." },
+      { "key": "hideOnFullscreen", "type": "boolean", "label": "Hide for fullscreen", "defaultValue": true },
+      { "key": "allowChildren", "type": "boolean", "label": "Bring friends", "defaultValue": true, "description": "Some animations arrive with a second pet in tow." },
+      { "key": "avoidBar", "type": "boolean", "label": "Keep off the bar", "defaultValue": true, "description": "Treat the Omarchy bar as the edge of the world." },
+      { "key": "roamMonitors", "type": "boolean", "label": "Roam between monitors", "defaultValue": true, "description": "Walk from one screen onto the next where they touch. Ignored while \"Keep to one workspace\" is on." },
+      { "key": "lockToWorkspace", "type": "boolean", "label": "Keep to one workspace", "defaultValue": true, "description": "A pet stays on the workspace it appeared on, instead of floating over all of them." }
+    ]
+  }
+}

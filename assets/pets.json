@@ -1,0 +1,59 @@
+{
+ "pets": [
+  {
+   "id": "esheep",
+   "name": "eSheep",
+   "title": "eSheep 64bit",
+   "author": "Adriano",
+   "version": "1.8",
+   "icon": "icon.png",
+   "frameWidth": 40,
+   "frameHeight": 40,
+   "animations": 54
+  },
+  {
+   "id": "fox",
+   "name": "fox mate",
+   "title": "fox mate",
+   "author": "Michelle!",
+   "version": "0.3",
+   "icon": "icon.png",
+   "frameWidth": 48,
+   "frameHeight": 48,
+   "animations": 27
+  },
+  {
+   "id": "neko",
+   "name": "Neko",
+   "title": "Neko mate",
+   "author": "Adriano",
+   "version": "0.3",
+   "icon": "icon.png",
+   "frameWidth": 32,
+   "frameHeight": 32,
+   "animations": 27
+  },
+  {
+   "id": "pingus",
+   "name": "Pingus",
+   "title": "Pingus",
+   "author": "Adriano Petrucci",
+   "version": "0.1",
+   "icon": "icon.png",
+   "frameWidth": 32,
+   "frameHeight": 32,
+   "animations": 28
+  },
+  {
+   "id": "sheep-blue",
+   "name": "Ben",
+   "title": "gSheep Blue",
+   "author": "Oliver B.",
+   "version": "8.0",
+   "icon": "icon.png",
+   "frameWidth": 40,
+   "frameHeight": 40,
+   "animations": 268
+  }
+ ]
+}

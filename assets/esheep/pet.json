@@ -1,0 +1,2367 @@
+{
+ "animations": {
+  "1": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 100
+    },
+    {
+     "id": 37,
+     "only": "vertical",
+     "probability": 2
+    },
+    {
+     "id": 43,
+     "only": "window",
+     "probability": 20
+    }
+   ],
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   },
+   "gravity": [
+    {
+     "id": 5,
+     "probability": 100
+    }
+   ],
+   "id": 1,
+   "name": "walk",
+   "sequence": {
+    "action": "",
+    "frames": [
+     2,
+     3
+    ],
+    "next": [
+     {
+      "id": 11,
+      "only": "window",
+      "probability": 2
+     },
+     {
+      "id": 35,
+      "only": "taskbar",
+      "probability": 10
+     },
+     {
+      "id": 1,
+      "probability": 90
+     },
+     {
+      "id": 15,
+      "probability": 6
+     },
+     {
+      "id": 50,
+      "only": "taskbar",
+      "probability": 50
+     },
+     {
+      "id": 49,
+      "only": "window",
+      "probability": 50
+     }
+    ],
+    "repeat": "20",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   }
+  },
+  "10": {
+   "end": {
+    "interval": "500",
+    "offsetY": "2",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 10,
+   "name": "fall hard",
+   "sequence": {
+    "action": "",
+    "frames": [
+     48,
+     48,
+     48,
+     48,
+     47
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "2",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "11": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 11,
+   "name": "pissa",
+   "sequence": {
+    "action": "",
+    "frames": [
+     3,
+     12,
+     13,
+     103,
+     104,
+     105,
+     106
+    ],
+    "next": [
+     {
+      "id": 12,
+      "probability": 100
+     }
+    ],
+    "repeat": "5+random/10",
+    "repeatFrom": 5
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "12": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 12,
+   "name": "pissb",
+   "sequence": {
+    "action": "",
+    "frames": [
+     104,
+     105,
+     104,
+     104,
+     103,
+     13,
+     12
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "13": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 13,
+   "name": "kill",
+   "sequence": {
+    "action": "",
+    "frames": [
+     3,
+     96,
+     96
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "20",
+    "repeatFrom": 1
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "14": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 14,
+   "name": "sync",
+   "sequence": {
+    "action": "",
+    "frames": [
+     50,
+     51
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "12",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "15": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 15,
+   "name": "sleep1a",
+   "sequence": {
+    "action": "",
+    "frames": [
+     3,
+     107,
+     108,
+     107,
+     108,
+     107,
+     31,
+     32,
+     33,
+     0,
+     1
+    ],
+    "next": [
+     {
+      "id": 16,
+      "probability": 100
+     }
+    ],
+    "repeat": "random/5+10",
+    "repeatFrom": 9
+   },
+   "start": {
+    "interval": "1000",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "16": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 16,
+   "name": "sleep1b",
+   "sequence": {
+    "action": "",
+    "frames": [
+     0,
+     80,
+     79,
+     78,
+     77,
+     37,
+     38,
+     39,
+     38,
+     37,
+     6
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "17": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 17,
+   "name": "sleep2a",
+   "sequence": {
+    "action": "",
+    "frames": [
+     3,
+     6,
+     7,
+     8,
+     8,
+     7,
+     8,
+     8
+    ],
+    "next": [
+     {
+      "id": 18,
+      "probability": 100
+     }
+    ],
+    "repeat": "random/10+20",
+    "repeatFrom": 6
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "18": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 18,
+   "name": "sleep2b",
+   "sequence": {
+    "action": "",
+    "frames": [
+     8,
+     7,
+     6
+    ],
+    "next": [
+     {
+      "id": 7,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "19": {
+   "end": {
+    "interval": "200",
+    "offsetY": "1",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 19,
+   "name": "sleep3a",
+   "sequence": {
+    "action": "",
+    "frames": [
+     3,
+     9,
+     10,
+     34,
+     35,
+     34,
+     35,
+     36,
+     36
+    ],
+    "next": [
+     {
+      "id": 20,
+      "probability": 100
+     }
+    ],
+    "repeat": "random/10+30",
+    "repeatFrom": 7
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "1",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "2": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 2,
+   "name": "rotate1a",
+   "sequence": {
+    "action": "flip",
+    "frames": [
+     3,
+     9,
+     10
+    ],
+    "next": [
+     {
+      "id": 3,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "20": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 20,
+   "name": "sleep3b",
+   "sequence": {
+    "action": "",
+    "frames": [
+     35,
+     36,
+     36,
+     35,
+     34,
+     34,
+     34,
+     10,
+     9
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "1",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "21": {
+   "end": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "2"
+   },
+   "id": 21,
+   "name": "batha",
+   "sequence": {
+    "action": "",
+    "frames": [
+     134
+    ],
+    "next": [
+     {
+      "id": 22,
+      "probability": 100
+     }
+    ],
+    "repeat": "(areaH/2+(randS*areaH/2)/120-imageH-68)/2",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "2"
+   }
+  },
+  "22": {
+   "border": [
+    {
+     "id": 47,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "32",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "2"
+   },
+   "id": 22,
+   "name": "bathb",
+   "sequence": {
+    "action": "",
+    "frames": [
+     135,
+     135,
+     135,
+     135,
+     136,
+     136,
+     136,
+     136,
+     137,
+     137,
+     137,
+     137,
+     138,
+     138,
+     138,
+     138,
+     139,
+     139,
+     139,
+     139,
+     140,
+     140,
+     140,
+     140,
+     141,
+     141,
+     141,
+     141,
+     142,
+     142,
+     142,
+     142,
+     143,
+     143,
+     143,
+     143,
+     144,
+     144,
+     144,
+     144,
+     145,
+     144,
+     145,
+     144,
+     145,
+     144,
+     145,
+     144,
+     174,
+     174,
+     174,
+     174,
+     174,
+     174,
+     174
+    ],
+    "next": [
+     {
+      "id": 47,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "2"
+   }
+  },
+  "23": {
+   "end": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 23,
+   "name": "bathw",
+   "sequence": {
+    "action": "",
+    "frames": [
+     146
+    ],
+    "next": [
+     {
+      "id": 24,
+      "probability": 100
+     }
+    ],
+    "repeat": "(areaH/2+(randS*areaH/2)/120-imageH-10)/2",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "24": {
+   "end": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 24,
+   "name": "bathz",
+   "sequence": {
+    "action": "",
+    "frames": [
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     146,
+     147,
+     147,
+     148,
+     148,
+     148,
+     147,
+     147,
+     146,
+     146,
+     146,
+     146,
+     146
+    ],
+    "next": [],
+    "repeat": "5",
+    "repeatFrom": 20
+   },
+   "start": {
+    "interval": "30",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "25": {
+   "border": [
+    {
+     "id": 7,
+     "only": "taskbar",
+     "probability": 80
+    },
+    {
+     "id": 36,
+     "only": "horizontal+",
+     "probability": 20
+    }
+   ],
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "15"
+   },
+   "id": 25,
+   "name": "jump",
+   "sequence": {
+    "action": "",
+    "frames": [
+     76,
+     30,
+     30,
+     30,
+     30,
+     23,
+     23,
+     23,
+     23,
+     23,
+     24,
+     24,
+     24,
+     24,
+     77
+    ],
+    "next": [
+     {
+      "id": 7,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "-15"
+   }
+  },
+  "26": {
+   "end": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 26,
+   "name": "eat",
+   "sequence": {
+    "action": "",
+    "frames": [
+     6,
+     6,
+     6,
+     6,
+     58,
+     59,
+     59,
+     60,
+     61,
+     60,
+     61,
+     6
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "5",
+    "repeatFrom": 5
+   },
+   "start": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "27": {
+   "end": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 27,
+   "name": "flower",
+   "sequence": {
+    "action": "",
+    "frames": [
+     174,
+     153,
+     153,
+     153,
+     153,
+     153,
+     149,
+     149,
+     149,
+     149,
+     149,
+     149,
+     149,
+     149,
+     149,
+     150,
+     150,
+     150,
+     150,
+     150,
+     150,
+     150,
+     151,
+     151,
+     151,
+     151,
+     151,
+     151,
+     151,
+     152,
+     152,
+     152,
+     152,
+     152,
+     152,
+     152,
+     174,
+     174,
+     174
+    ],
+    "next": [],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "300",
+    "offsetY": "0",
+    "opacity": "0.8",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "28": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "0"
+   },
+   "id": 28,
+   "name": "blacksheepa",
+   "sequence": {
+    "action": "",
+    "frames": [
+     5,
+     4,
+     4
+    ],
+    "next": [
+     {
+      "id": 29,
+      "probability": 100
+     }
+    ],
+    "repeat": "(screenW/2)/30-6",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "0"
+   }
+  },
+  "29": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 29,
+   "name": "blacksheepb",
+   "sequence": {
+    "action": "",
+    "frames": [
+     2,
+     3
+    ],
+    "next": [
+     {
+      "id": 30,
+      "probability": 100
+     }
+    ],
+    "repeat": "25+(Convert(screenW/2,System.Int32)%30)/7",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-6",
+    "y": "0"
+   }
+  },
+  "3": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 3,
+   "name": "rotate1b",
+   "sequence": {
+    "action": "",
+    "frames": [
+     10,
+     9,
+     3
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     },
+     {
+      "id": 26,
+      "only": "taskbar",
+      "probability": 5
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "30": {
+   "end": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 30,
+   "name": "blacksheepc",
+   "sequence": {
+    "action": "",
+    "frames": [
+     8,
+     3,
+     3,
+     3,
+     127,
+     128,
+     129,
+     130,
+     130,
+     130,
+     130,
+     129,
+     128,
+     127,
+     3,
+     3,
+     3
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "31": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "10",
+    "y": "0"
+   },
+   "id": 31,
+   "name": "blacksheepv",
+   "sequence": {
+    "action": "",
+    "frames": [
+     155,
+     154,
+     154
+    ],
+    "next": [
+     {
+      "id": 32,
+      "probability": 100
+     }
+    ],
+    "repeat": "(screenW/2)/30-6",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "10",
+    "y": "0"
+   }
+  },
+  "32": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 32,
+   "name": "blacksheepw",
+   "sequence": {
+    "action": "",
+    "frames": [
+     156,
+     157
+    ],
+    "next": [
+     {
+      "id": 33,
+      "probability": 100
+     }
+    ],
+    "repeat": "24+(Convert(screenW/2,System.Int32)%30)/7",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "6",
+    "y": "0"
+   }
+  },
+  "33": {
+   "end": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 33,
+   "name": "blacksheepy",
+   "sequence": {
+    "action": "",
+    "frames": [
+     157
+    ],
+    "next": [
+     {
+      "id": 34,
+      "probability": 100
+     }
+    ],
+    "repeat": "9",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "34": {
+   "end": {
+    "interval": "20",
+    "offsetY": "0",
+    "opacity": "0.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 34,
+   "name": "blacksheepz",
+   "sequence": {
+    "action": "",
+    "frames": [
+     157
+    ],
+    "next": [],
+    "repeat": "20",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "20",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "35": {
+   "border": [
+    {
+     "id": 8,
+     "only": "vertical",
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "0"
+   },
+   "id": 35,
+   "name": "run_begin",
+   "sequence": {
+    "action": "",
+    "frames": [
+     2,
+     3,
+     2,
+     5,
+     4,
+     5,
+     4,
+     5
+    ],
+    "next": [
+     {
+      "id": 7,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   }
+  },
+  "36": {
+   "border": [
+    {
+     "id": 8,
+     "only": "vertical",
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   },
+   "id": 36,
+   "name": "run_end",
+   "sequence": {
+    "action": "",
+    "frames": [
+     5,
+     4,
+     5,
+     4,
+     5,
+     3,
+     2,
+     3,
+     2,
+     3
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "0"
+   }
+  },
+  "37": {
+   "border": [
+    {
+     "id": 38,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "-2"
+   },
+   "id": 37,
+   "name": "vertical_walk_up",
+   "sequence": {
+    "action": "",
+    "frames": [
+     31,
+     30,
+     15,
+     16
+    ],
+    "next": [
+     {
+      "id": 37,
+      "probability": 100
+     }
+    ],
+    "repeat": "5000",
+    "repeatFrom": 2
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "-2"
+   }
+  },
+  "38": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "2",
+    "y": "0"
+   },
+   "id": 38,
+   "name": "top_walk",
+   "sequence": {
+    "action": "flip",
+    "frames": [
+     16,
+     17,
+     28
+    ],
+    "next": [
+     {
+      "id": 39,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "39": {
+   "border": [
+    {
+     "id": 40,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "-2",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   },
+   "id": 39,
+   "name": "top_walk2",
+   "sequence": {
+    "action": "",
+    "frames": [
+     98,
+     97
+    ],
+    "next": [
+     {
+      "id": 39,
+      "probability": 100
+     }
+    ],
+    "repeat": "5000",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "-2",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   }
+  },
+  "4": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 4,
+   "name": "drag",
+   "sequence": {
+    "action": "",
+    "frames": [
+     42,
+     43,
+     43,
+     42,
+     44,
+     44
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "40": {
+   "end": {
+    "interval": "800",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 40,
+   "name": "top_walk3",
+   "sequence": {
+    "action": "flip",
+    "frames": [
+     97,
+     97
+    ],
+    "next": [
+     {
+      "id": 41,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "800",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "41": {
+   "border": [
+    {
+     "id": 42,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "2"
+   },
+   "id": 41,
+   "name": "vertical_walk_down",
+   "sequence": {
+    "action": "",
+    "frames": [
+     19,
+     20
+    ],
+    "next": [
+     {
+      "id": 41,
+      "probability": 100
+     }
+    ],
+    "repeat": "5000",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "2"
+   }
+  },
+  "42": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 42,
+   "name": "vertical_walk_over",
+   "sequence": {
+    "action": "",
+    "frames": [
+     24,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "43": {
+   "end": {
+    "interval": "120",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 43,
+   "name": "look_down",
+   "sequence": {
+    "action": "",
+    "frames": [
+     6,
+     78,
+     78,
+     78,
+     79,
+     80,
+     79,
+     78,
+     78,
+     78,
+     78,
+     78
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 50
+     },
+     {
+      "id": 44,
+      "probability": 40
+     },
+     {
+      "id": 51,
+      "probability": 40
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "120",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "44": {
+   "end": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-20",
+    "y": "10"
+   },
+   "id": 44,
+   "name": "jump_down",
+   "sequence": {
+    "action": "",
+    "frames": [
+     31,
+     30,
+     30,
+     4,
+     4,
+     4,
+     21,
+     25
+    ],
+    "next": [
+     {
+      "id": 45,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "150",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-5",
+    "y": "-10"
+   }
+  },
+  "45": {
+   "border": [
+    {
+     "id": 46,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "10"
+   },
+   "id": 45,
+   "name": "jump_down2",
+   "sequence": {
+    "action": "",
+    "frames": [
+     25,
+     25
+    ],
+    "next": [
+     {
+      "id": 45,
+      "probability": 100
+     }
+    ],
+    "repeat": "100",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "10"
+   }
+  },
+  "46": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 46,
+   "name": "jump_down3",
+   "sequence": {
+    "action": "",
+    "frames": [
+     24,
+     23,
+     23,
+     23,
+     23,
+     23,
+     31,
+     3,
+     3,
+     3,
+     3
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "47": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 47,
+   "name": "bathc",
+   "sequence": {
+    "action": "",
+    "frames": [
+     169,
+     169,
+     169,
+     170,
+     171,
+     170,
+     169,
+     169
+    ],
+    "next": [
+     {
+      "id": 48,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "48": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 48,
+   "name": "bathd",
+   "sequence": {
+    "action": "",
+    "frames": [
+     119,
+     81,
+     81,
+     82,
+     82,
+     10
+    ],
+    "next": [
+     {
+      "id": 3,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "-20",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "49": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 100
+    },
+    {
+     "id": 37,
+     "only": "vertical",
+     "probability": 2
+    },
+    {
+     "id": 43,
+     "only": "window",
+     "probability": 20
+    }
+   ],
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   },
+   "gravity": [
+    {
+     "id": 5,
+     "probability": 100
+    }
+   ],
+   "id": 49,
+   "name": "walk_win2",
+   "sequence": {
+    "action": "",
+    "frames": [
+     2,
+     3
+    ],
+    "next": [
+     {
+      "id": 19,
+      "probability": 10
+     },
+     {
+      "id": 17,
+      "probability": 3
+     },
+     {
+      "id": 1,
+      "probability": 80
+     }
+    ],
+    "repeat": "10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   }
+  },
+  "5": {
+   "border": [
+    {
+     "id": 9,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "40",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "10"
+   },
+   "id": 5,
+   "name": "fall",
+   "sequence": {
+    "action": "",
+    "frames": [
+     133
+    ],
+    "next": [
+     {
+      "id": 6,
+      "probability": 100
+     }
+    ],
+    "repeat": "20",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "1"
+   }
+  },
+  "50": {
+   "border": [
+    {
+     "id": 2,
+     "probability": 100
+    },
+    {
+     "id": 37,
+     "only": "vertical",
+     "probability": 2
+    },
+    {
+     "id": 43,
+     "only": "window",
+     "probability": 20
+    }
+   ],
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   },
+   "gravity": [
+    {
+     "id": 1,
+     "probability": 100
+    }
+   ],
+   "id": 50,
+   "name": "walk_task2",
+   "sequence": {
+    "action": "",
+    "frames": [
+     2,
+     3
+    ],
+    "next": [
+     {
+      "id": 19,
+      "probability": 10
+     },
+     {
+      "id": 17,
+      "probability": 3
+     },
+     {
+      "id": 1,
+      "probability": 80
+     }
+    ],
+    "repeat": "10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-2",
+    "y": "0"
+   }
+  },
+  "51": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 51,
+   "name": "fall_wina",
+   "sequence": {
+    "action": "flip",
+    "frames": [
+     77
+    ],
+    "next": [
+     {
+      "id": 52,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-imageW*0.7",
+    "y": "imageH*0.45"
+   }
+  },
+  "52": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "1"
+   },
+   "id": 52,
+   "name": "fall_winb",
+   "sequence": {
+    "action": "",
+    "frames": [
+     40,
+     41
+    ],
+    "next": [
+     {
+      "id": 53,
+      "probability": 100
+     }
+    ],
+    "repeat": "10+random/10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "53": {
+   "border": [
+    {
+     "id": 54,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "20"
+   },
+   "id": 53,
+   "name": "fall_winc",
+   "sequence": {
+    "action": "",
+    "frames": [
+     29,
+     29
+    ],
+    "next": [
+     {
+      "id": 53,
+      "probability": 100
+     }
+    ],
+    "repeat": "300",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "50",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "4"
+   }
+  },
+  "54": {
+   "end": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 54,
+   "name": "fall_wind",
+   "sequence": {
+    "action": "",
+    "frames": [
+     45,
+     45,
+     18,
+     76,
+     6
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "500",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  },
+  "6": {
+   "border": [
+    {
+     "id": 10,
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "40",
+    "offsetY": "2",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "10"
+   },
+   "id": 6,
+   "name": "fall fast",
+   "sequence": {
+    "action": "",
+    "frames": [
+     46,
+     46,
+     46
+    ],
+    "next": [
+     {
+      "id": 6,
+      "probability": 100
+     }
+    ],
+    "repeat": "10",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "40",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "10"
+   }
+  },
+  "7": {
+   "border": [
+    {
+     "id": 8,
+     "only": "vertical",
+     "probability": 100
+    }
+   ],
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "0"
+   },
+   "gravity": [
+    {
+     "id": 5,
+     "probability": 100
+    }
+   ],
+   "id": 7,
+   "name": "run",
+   "sequence": {
+    "action": "",
+    "frames": [
+     5,
+     4,
+     4
+    ],
+    "next": [
+     {
+      "id": 7,
+      "probability": 40
+     },
+     {
+      "id": 36,
+      "probability": 80
+     },
+     {
+      "id": 25,
+      "only": "taskbar",
+      "probability": 20
+     }
+    ],
+    "repeat": "5",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "-10",
+    "y": "0"
+   }
+  },
+  "8": {
+   "end": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "10",
+    "y": "0"
+   },
+   "id": 8,
+   "name": "boing",
+   "sequence": {
+    "action": "",
+    "frames": [
+     62,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     6
+    ],
+    "next": [
+     {
+      "id": 2,
+      "probability": 20
+     },
+     {
+      "id": 7,
+      "probability": 5
+     },
+     {
+      "id": 1,
+      "probability": 80
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "100",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "1",
+    "y": "0"
+   }
+  },
+  "9": {
+   "end": {
+    "interval": "200",
+    "offsetY": "0",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   },
+   "id": 9,
+   "name": "fall soft",
+   "sequence": {
+    "action": "",
+    "frames": [
+     133,
+     133,
+     133,
+     133,
+     49,
+     13,
+     12,
+     6
+    ],
+    "next": [
+     {
+      "id": 1,
+      "probability": 100
+     }
+    ],
+    "repeat": "0",
+    "repeatFrom": 0
+   },
+   "start": {
+    "interval": "800",
+    "offsetY": "1",
+    "opacity": "1.0",
+    "x": "0",
+    "y": "0"
+   }
+  }
+ },
+ "author": "Adriano",
+ "childs": [
+  {
+   "animationId": 21,
+   "next": 23,
+   "x": "screenW+10-areaH/2-(randS*areaH/2)/120",
+   "y": "areaH-imageH"
+  },
+  {
+   "animationId": 26,
+   "next": 27,
+   "x": "imageX-imageW*0.9",
+   "y": "imageY"
+  },
+  {
+   "animationId": 28,
+   "next": 31,
+   "x": "-imageW",
+   "y": "imageY"
+  }
+ ],
+ "icon": "icon.png",
+ "id": "esheep",
+ "image": {
+  "file": "sprites.png",
+  "frameHeight": 40,
+  "frameWidth": 40,
+  "height": 440,
+  "tilesX": 16,
+  "tilesY": 11,
+  "width": 640
+ },
+ "info": "Open source project for the lovely eSheep.[br] For more info, visit my webpage [link:http://esheep.petrucci.ch] [br]Image rip by LiL_Stenly",
+ "name": "eSheep",
+ "spawns": [
+  {
+   "id": 1,
+   "next": [
+    {
+     "id": 1,
+     "probability": 100
+    }
+   ],
+   "probability": 20,
+   "x": "screenW+10",
+   "y": "areaH-imageH"
+  },
+  {
+   "id": 2,
+   "next": [
+    {
+     "id": 1,
+     "probability": 100
+    }
+   ],
+   "probability": 80,
+   "x": "random*(screenW-imageW-50)/100+25",
+   "y": "-imageH-20"
+  },
+  {
+   "id": 3,
+   "next": [
+    {
+     "id": 21,
+     "probability": 100
+    }
+   ],
+   "probability": 3,
+   "x": "screenW+10",
+   "y": "areaH/2-(randS*areaH/2)/120-imageH"
+  },
+  {
+   "id": 4,
+   "next": [
+    {
+     "id": 28,
+     "probability": 100
+    }
+   ],
+   "probability": 3,
+   "x": "screenW",
+   "y": "areaH-imageH"
+  }
+ ],
+ "special": {
+  "drag": 4,
+  "fall": 5,
+  "kill": 13,
+  "sync": 14
+ },
+ "title": "eSheep 64bit",
+ "version": "1.8"
+}

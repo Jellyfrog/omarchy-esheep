@@ -1,0 +1,18 @@
+#!/bin/bash
+# Every check in one go.
+
+set -euo pipefail
+
+DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+
+status=0
+for suite in "$DIR"/*-test.sh; do
+  echo "# $(basename "$suite")"
+  if ! "$suite"; then status=1; fi
+done
+
+if [[ $status -ne 0 ]]; then
+  echo "# FAILED" >&2
+  exit 1
+fi
+echo "# all checks passed"
