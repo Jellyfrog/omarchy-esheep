@@ -24,8 +24,22 @@ Item {
 
   readonly property string pluginId: manifest && manifest.id ? String(manifest.id) : "jellyfrog.esheep"
 
-  // ---- settings, read straight from the shell's live config
-  readonly property var config: shell ? shell.shellConfig : null
+  // ---- settings, read from whichever config the host hands over
+  //
+  // First-party plugins get the shell root, whose `shellConfig` is all of
+  // shell.json. A third-party plugin gets a capability-scoped facade instead:
+  // it carries the bar's own config as `barConfig` and has no `shellConfig`
+  // at all. Reading only the latter left this overlay on the shipped defaults
+  // -- one eSheep -- however many pets the panel asked for, because
+  // Settings.read was handed null and fell back. Settings.entryFor looks for
+  // the entry under `bar.layout`, so the bar's slice is handed back inside
+  // the shell.json shape it expects.
+  readonly property var config: {
+    if (!shell) return null
+    if (shell.shellConfig) return shell.shellConfig
+    if (shell.barConfig) return { bar: shell.barConfig }
+    return null
+  }
   readonly property var settings: Settings.read(config, pluginId)
 
   readonly property string petId: settings.pet
