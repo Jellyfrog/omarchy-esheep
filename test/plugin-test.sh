@@ -401,6 +401,18 @@ assert(barWidget.indexOf(id) !== -1, 'the bar widget falls back to the manifest 
 assert(overlay.indexOf('Settings.js') !== -1 && barWidget.indexOf('Settings.js') !== -1,
   'both halves read settings through Settings.js')
 
+// A third-party plugin is handed a capability-scoped shell facade
+// (services/PluginShellApi.qml), not the host root: it carries the bar's
+// config as `barConfig` and has no `shellConfig` at all. Reading only the
+// latter left the overlay on the shipped defaults -- one pet -- however many
+// the panel asked for, because Settings.read() was handed null and fell back.
+// The overlay has to read whichever config its shell was given.
+assert(overlay.indexOf('shell.shellConfig') !== -1,
+  'the overlay reads the whole shell config when the host offers one')
+assert(overlay.indexOf('shell.barConfig') !== -1,
+  'the overlay falls back to the bar config a scoped shell offers',
+  'a scoped shell has no shellConfig, so a config read from it alone never changes')
+
 // The shell calls close() on every panel plugin whenever it tears the plugin
 // host down -- which it does on ANY plugin reload, not just this one. A close()
 // that persists unconditionally therefore empties the pet count every time any
